@@ -7,11 +7,9 @@ def print_square(n):
 
 
 def print_get_square(n):
-    sq = square(n)
-    print_square(sq)
-    return sq
+    return print_square(square(n))
 
 
-print_get_square(2)
+print_get_square(6)
 
 
