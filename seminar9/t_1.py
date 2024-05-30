@@ -97,5 +97,5 @@ print(df.columns)
 
 
 # 2. Выгрузите итоговый датафрейм в файл Titanic-new.csv
-df.to_csv(r"Titanic-new.csv", index=True, sep=";")
+df.to_csv(r"Titanic-new.csv")
 
